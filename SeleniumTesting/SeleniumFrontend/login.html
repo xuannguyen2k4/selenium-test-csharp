@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <h1>Login</h1>
+
+    <!-- Form đăng nhập -->
+    <form id="loginForm" method="POST" action="/login">
+        <input type="text" id="username" placeholder="Username" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button id="loginButton" type="submit">Login</button>
+    </form>
+
+    <!-- Sau khi đăng nhập thành công -->
+    <div id="welcomeMessage" style="display:none;">
+        Welcome, testuser!
+    </div>
+
+    <script>
+        // Giả lập đăng nhập thành công
+        document.getElementById('loginForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            document.getElementById('welcomeMessage').style.display = 'block';
+            alert('Login Successful');
+        });
+    </script>
+</body>
+</html>

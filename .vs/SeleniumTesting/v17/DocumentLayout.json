@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BE\\SeleniumTesting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|d:\\be\\seleniumtesting\\seleniumtesting\\searchtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|solutionrelative:seleniumtesting\\searchtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|d:\\be\\seleniumtesting\\seleniumtesting\\navigationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|solutionrelative:seleniumtesting\\navigationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|d:\\be\\seleniumtesting\\seleniumtesting\\logintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|solutionrelative:seleniumtesting\\logintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|d:\\be\\seleniumtesting\\seleniumtesting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|solutionrelative:seleniumtesting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|d:\\be\\seleniumtesting\\seleniumtesting\\seleniumfrontend\\search.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|solutionrelative:seleniumtesting\\seleniumfrontend\\search.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|d:\\be\\seleniumtesting\\seleniumtesting\\seleniumfrontend\\navigation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|solutionrelative:seleniumtesting\\seleniumfrontend\\navigation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|d:\\be\\seleniumtesting\\seleniumtesting\\seleniumfrontend\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C4ECA89-F208-463B-B20E-CFCFC9608E24}|SeleniumTesting\\SeleniumTesting.csproj|solutionrelative:seleniumtesting\\seleniumfrontend\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 118,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "navigation.html",
+              "DocumentMoniker": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\SeleniumFrontend\\navigation.html",
+              "RelativeDocumentMoniker": "SeleniumTesting\\SeleniumFrontend\\navigation.html",
+              "ToolTip": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\SeleniumFrontend\\navigation.html",
+              "RelativeToolTip": "SeleniumTesting\\SeleniumFrontend\\navigation.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-14T15:37:42.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavigationTest.cs",
+              "DocumentMoniker": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\NavigationTest.cs",
+              "RelativeDocumentMoniker": "SeleniumTesting\\NavigationTest.cs",
+              "ToolTip": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\NavigationTest.cs",
+              "RelativeToolTip": "SeleniumTesting\\NavigationTest.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAABEAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T15:18:23.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginTest.cs",
+              "DocumentMoniker": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\LoginTest.cs",
+              "RelativeDocumentMoniker": "SeleniumTesting\\LoginTest.cs",
+              "ToolTip": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\LoginTest.cs",
+              "RelativeToolTip": "SeleniumTesting\\LoginTest.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA0wA4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T15:16:36.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchTest.cs",
+              "DocumentMoniker": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\SearchTest.cs",
+              "RelativeDocumentMoniker": "SeleniumTesting\\SearchTest.cs",
+              "ToolTip": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\SearchTest.cs",
+              "RelativeToolTip": "SeleniumTesting\\SearchTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBUAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T15:17:31.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "login.html",
+              "DocumentMoniker": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\SeleniumFrontend\\login.html",
+              "RelativeDocumentMoniker": "SeleniumTesting\\SeleniumFrontend\\login.html",
+              "ToolTip": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\SeleniumFrontend\\login.html",
+              "RelativeToolTip": "SeleniumTesting\\SeleniumFrontend\\login.html",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-14T15:35:51.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\Program.cs",
+              "RelativeDocumentMoniker": "SeleniumTesting\\Program.cs",
+              "ToolTip": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\Program.cs",
+              "RelativeToolTip": "SeleniumTesting\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T15:03:41.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "search.html",
+              "DocumentMoniker": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\SeleniumFrontend\\search.html",
+              "RelativeDocumentMoniker": "SeleniumTesting\\SeleniumFrontend\\search.html",
+              "ToolTip": "D:\\BE\\SeleniumTesting\\SeleniumTesting\\SeleniumFrontend\\search.html",
+              "RelativeToolTip": "SeleniumTesting\\SeleniumFrontend\\search.html",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAowA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-14T15:36:33.784Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
