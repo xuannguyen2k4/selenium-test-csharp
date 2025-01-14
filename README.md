@@ -17,7 +17,7 @@
 - Xử lý lỗi:
   + Sử dụng try-catch để xử lý các lỗi phát sinh trong quá trình chạy kiểm thử.
 ## 3. Kết quả chạy chương trình
-![image](https://github.com/user-attachments/assets/0ccf232e-a560-4e9b-a960-79c0571269f7)
+![image](https://github.com/user-attachments/assets/2498723e-e456-446a-a221-668ce5138215)
 ## 4. Tài liệu tham khảo
 https://chatgpt.com/share/67868802-3a0c-800a-b2c6-d36e0837714f
 ## 5. Author
