@@ -1,6 +1,6 @@
 # Thực hiện Kiểm thử Tự động với Selenium
 ## 1. Cài đặt môi trường
-- Cài đặt VS khi sử dụng C#
+- Cài đặt VS khi sử dụng C# (Console App, .Net Framework)
 - Cài đặt các gói Selenium.WebDriver, Selenium.WebDriver.ChromeDriver, Selenium.Support
 ## 2. Kịch bản kiểm thử
 - Tạo kịch bản đăng nhập:
