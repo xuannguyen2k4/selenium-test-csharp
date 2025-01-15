@@ -12,31 +12,29 @@ namespace SeleniumTesting
 
             try
             {
-                Console.WriteLine("Start Testing, Redirect...");
+                Console.WriteLine("Start testing navigation...");
 
-                // Mở trang chủ
                 driver.Navigate().GoToUrl("D:\\BE\\SeleniumTesting\\SeleniumTesting\\SeleniumFrontend\\navigation.html");
                 driver.Manage().Window.Maximize();
 
-                // Tìm các liên kết trong menu điều hướng
                 var navLinks = driver.FindElements(By.ClassName("nav-link"));
                 foreach (var link in navLinks)
                 {
                     string linkText = link.Text;
                     link.Click();
 
-                    // Chờ tải trang và kiểm tra URL
-                    System.Threading.Thread.Sleep(2000);
+                    // Wait for the page to load and check the URL
+                    System.Threading.Thread.Sleep(2000); // Can be replaced with WebDriverWait for better synchronization
                     Console.WriteLine($"Redirected to: {driver.Url} with link: {linkText}");
 
-                    // Quay lại trang trước
+                    // Go back to the previous page
                     driver.Navigate().Back();
-                    System.Threading.Thread.Sleep(1000);
+                    System.Threading.Thread.Sleep(2000); // Adjust timing if needed
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error in testing redirect: {ex.Message}");
+                Console.WriteLine($"Error in navigation test: {ex.Message}");
             }
             finally
             {

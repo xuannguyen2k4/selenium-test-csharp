@@ -10,13 +10,10 @@ namespace SeleniumTesting
     {
         static void Main(string[] args)
         {
-            // Gọi kiểm thử đăng nhập
             LoginTest.RunTest();
 
-            // Gọi kiểm thử tìm kiếm
             SearchTest.RunTest();
 
-            // Gọi kiểm thử điều hướng
             NavigationTest.RunTest();
 
             Console.WriteLine("The end of testing. Press Enter to exit.");

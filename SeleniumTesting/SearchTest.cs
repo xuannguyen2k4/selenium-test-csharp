@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
 using System;
 
 namespace SeleniumTesting
@@ -12,33 +13,33 @@ namespace SeleniumTesting
 
             try
             {
-                Console.WriteLine("Starting for searching...");
+                Console.WriteLine("Starting search test...");
 
-                // Mở trang chủ
                 driver.Navigate().GoToUrl("D:\\BE\\SeleniumTesting\\SeleniumTesting\\SeleniumFrontend\\search.html");
                 driver.Manage().Window.Maximize();
 
-                // Nhập từ khóa tìm kiếm và nhấn Enter
+                // Perform search
                 driver.FindElement(By.Id("searchBox")).SendKeys("Selenium");
                 driver.FindElement(By.Id("searchBox")).SendKeys(Keys.Enter);
 
-                // Kiểm tra kết quả tìm kiếm
-                System.Threading.Thread.Sleep(2000); // Chờ kết quả tải
+                // Wait for search results to appear
+                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(2000));
+
                 var results = driver.FindElements(By.ClassName("search-result"));
-                Console.WriteLine($"The amount of searching: {results.Count}");
+                Console.WriteLine($"Number of results: {results.Count}");
 
                 if (results.Count > 0)
                 {
-                    Console.WriteLine("Search Successfully!");
+                    Console.WriteLine("Search Successful!");
                 }
                 else
                 {
-                    Console.WriteLine("No Result.");
+                    Console.WriteLine("No Results.");
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error in testing for searching: {ex.Message}");
+                Console.WriteLine($"Error in search test: {ex.Message}");
             }
             finally
             {

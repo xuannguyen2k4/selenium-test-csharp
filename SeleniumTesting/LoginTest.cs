@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
 using System;
 
 namespace SeleniumTesting
@@ -14,17 +15,17 @@ namespace SeleniumTesting
             {
                 Console.WriteLine("Start testing to login...");
 
-                // Mở trang đăng nhập
                 driver.Navigate().GoToUrl("D:\\BE\\SeleniumTesting\\SeleniumTesting\\SeleniumFrontend\\login.html");
                 driver.Manage().Window.Maximize();
 
-                // Nhập thông tin đăng nhập
+                // Enter the login details
                 driver.FindElement(By.Id("username")).SendKeys("testuser");
                 driver.FindElement(By.Id("password")).SendKeys("testpassword");
                 driver.FindElement(By.Id("loginButton")).Click();
 
-                // Kiểm tra kết quả
-                System.Threading.Thread.Sleep(2000); // Chờ trang tải
+                // Wait for the page to load and check the result
+                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(2000));
+
                 if (driver.PageSource.Contains("Welcome, testuser"))
                 {
                     Console.WriteLine("Login Successfully!");

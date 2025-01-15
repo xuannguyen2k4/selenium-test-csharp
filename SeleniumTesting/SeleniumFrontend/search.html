@@ -4,25 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #searchBox {
+            margin: 20px auto;
+            padding: 10px;
+            font-size: 16px;
+            width: 250px;
+            border: 1px solid #ccc;
+        }
+
+        #searchButton {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+            #searchButton:hover {
+                background-color: #45a049;
+            }
+
+        #searchResults {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .search-result {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
     <h1>Search Page</h1>
 
-    <!-- Trường tìm kiếm -->
+    <!-- Search field -->
     <input type="text" id="searchBox" placeholder="Search..." />
     <button id="searchButton" onclick="searchFunction()">Search</button>
 
-    <!-- Kết quả tìm kiếm sẽ hiển thị ở đây -->
     <div id="searchResults">
-        <div class="search-result">Result 1</div>
-        <div class="search-result">Result 2</div>
-        <div class="search-result">Result 3</div>
+        <p id="noResults" style="display:none;">No results found. Try a different search.</p>
     </div>
 
     <script>
         function searchFunction() {
-            // Giả lập tìm kiếm
-            alert('Search function triggered');
+            var query = document.getElementById('searchBox').value.toLowerCase();
+            var resultsDiv = document.getElementById('searchResults');
+            var noResults = document.getElementById('noResults');
+            var results = ['Selenium', 'WebDriver', 'Automation Testing'];
+
+            if (!query) {
+                resultsDiv.innerHTML = '<p>Please enter a search term.</p>';
+                return;
+            }
+
+            var filteredResults = results.filter(function (result) {
+                return result.toLowerCase().includes(query);
+            });
+
+            if (filteredResults.length > 0) {
+                resultsDiv.innerHTML = filteredResults.map(function (result) {
+                    return '<div class="search-result">' + result + '</div>';
+                }).join('');
+                noResults.style.display = 'none';  
+            } else {
+                resultsDiv.innerHTML = '';
+                noResults.style.display = 'block'; 
+            }
         }
     </script>
 </body>

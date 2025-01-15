@@ -4,28 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #loginForm {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+            #loginForm input {
+                margin: 5px;
+                padding: 10px;
+                width: 250px;
+                font-size: 14px;
+            }
+
+        #loginButton {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+            #loginButton:hover {
+                background-color: #45a049;
+            }
+
+        #welcomeMessage {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            color: green;
+        }
+    </style>
 </head>
 <body>
     <h1>Login</h1>
 
-    <!-- Form đăng nhập -->
-    <form id="loginForm" method="POST" action="/login">
+    <!-- login form -->
+    <form id="loginForm">
         <input type="text" id="username" placeholder="Username" required />
         <input type="password" id="password" placeholder="Password" required />
         <button id="loginButton" type="submit">Login</button>
     </form>
 
-    <!-- Sau khi đăng nhập thành công -->
-    <div id="welcomeMessage" style="display:none;">
+    <!-- After login successfully -->
+    <div id="welcomeMessage">
         Welcome, testuser!
     </div>
 
     <script>
-        // Giả lập đăng nhập thành công
+        // Simulate successful login
         document.getElementById('loginForm').addEventListener('submit', function (event) {
             event.preventDefault();
-            document.getElementById('welcomeMessage').style.display = 'block';
-            alert('Login Successful');
+
+            // Check the login information 
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            if (username === 'testuser' && password === 'testpassword') {
+                document.getElementById('welcomeMessage').style.display = 'block';
+                alert('Login Successful');
+            } else {
+                alert('Invalid credentials');
+            }
         });
     </script>
 </body>
