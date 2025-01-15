@@ -19,6 +19,6 @@
 ## 3. Kết quả chạy chương trình
 ![image](https://github.com/user-attachments/assets/2498723e-e456-446a-a221-668ce5138215)
 ## 4. Tài liệu tham khảo
-https://chatgpt.com/share/67868802-3a0c-800a-b2c6-d36e0837714f
+https://chatgpt.com/share/67873e2b-0ef8-800a-b148-f2976b080fe3
 ## 5. Author
 [Nguyễn Thị Xuân - BIT220184]
